@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bank Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ONLINE BANK</h1>
+    <div id="savingsAccount">
+      <h2>Savings Account</h2>
+      <button onclick="savingsAccount.deposit(500)">Deposit $500</button>
+      <button onclick="savingsAccount.withdraw(200)">Withdraw $200</button>
+      <button onclick="savingsAccount.withdraw(600)">Withdraw $600</button>
+      <p>Current Balance: <span id="savingsBalance">$1000</span></p>
+      <div class="alert" id="savingsError"></div>
+    </div>
+
+    <div id="checkingAccount">
+      <h2>Checking Account</h2>
+      <button onclick="checkingAccount.deposit(300)">Deposit $300</button>
+      <button onclick="checkingAccount.withdraw(500)">Withdraw $500</button>
+      <button onclick="checkingAccount.withdraw(1200)">Withdraw $1200</button>
+      <p>Current Balance: <span id="checkingBalance">$2000</span></p>
+      <div class="alert" id="checkingError"></div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

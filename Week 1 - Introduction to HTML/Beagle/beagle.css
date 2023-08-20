@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(249, 249, 238);
+    margin: 5% 7% 5% 7%;
+}
+
+h1 {
+    position: absolute;
+    left: 21%;
+    top: 55%;
+}
+
+h3 {
+    line-height: 0.8;
+    font-weight: normal;
+}
+
+table {
+    position: absolute;
+    left: 21%;
+    top: 69%;
+    height: 5.625rem;
+}
+
+.bold {
+    font-weight: bold;
+    padding-right: 1.25rem;
+}
+
+p {
+    position: absolute;
+    left: 21%;
+    top: 90%;
+    padding-right: 24.375rem;
+    line-height: 1.5;
+}
+
+.vertical {
+    border-left: 1px solid rgba(128, 128, 128, 0.548);
+    height: 40.625rem;
+    position: absolute;
+    left: 20%;
+    margin-top: 3%;
+    top: 0;
+}
+
+.beagle {
+    position: absolute;
+    left: 35%;
+    margin-top: 5%;
+    top: 0;
+    border: gray 0.188rem solid;
+    border-radius: 100%;
+}
+
+
+

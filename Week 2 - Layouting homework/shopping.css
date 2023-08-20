@@ -1,0 +1,79 @@
+body {
+    margin: 8% 10% 8% 10%;
+}
+
+.box1 {
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    height: 27.75rem;
+    text-align: center;
+}
+
+img {
+    width: 240px;
+}
+
+h5 {
+    font-family: 'Mulish', sans-serif;
+    font-size: x-small;
+    color: gray;
+    font-weight: lighter;
+    margin-top: 8px;
+}
+
+h4 {
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 0;
+}
+
+p {
+    width: 70%;
+    font-size: x-small;
+    font-family: 'Mulish', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 2.5rem;
+    color: rgb(81, 81, 81);
+}
+
+.cart {
+    background-color: black;
+    color: white;
+    font-family:'Mulish', sans-serif;
+    font-size: xx-small;
+    height: 1.60rem;
+    width: 3.8rem;
+    text-align: center;
+    font-weight: 900;
+    border-style: solid black;
+    cursor: pointer;
+}
+
+.view {
+    background-color: white;
+    color: black;
+    font-family:'Mulish', sans-serif;
+    font-size: xx-small;
+    height: 1.60rem;
+    width: 3.8rem;
+    text-align: center;
+    font-weight: 900;
+    border-style: solid black;
+    cursor: pointer;
+}
+
+.box2 {
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    height: 27.75rem;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.box3 {
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    height: 27.75rem;
+    text-align: center;
+    margin-left: 60% ;
+}

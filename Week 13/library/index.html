@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Library  Management <br> System</h1>
+  </header>
+
+  <main>
+    <section class="library-form">
+      <h2>Add New Book</h2>
+      <form id="add-book-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        <label for="author">Author:</label>
+        <input type="text" id="author" required>
+        <label for="isbn">ISBN:</label>
+        <input type="text" id="isbn" required>
+        <label for="issue-number">Issue Number (Magazine only):</label>
+        <input type="text" id="issue-number">
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+
+    <section class="library-list">
+      <h2>Books in the Library</h2>
+      <ul id="book-list"></ul>
+    </section>
+  </main>
+
+  <script src="book.js" type="module"></script>
+  <script src="magazine.js" type="module"></script>
+  <script src="library.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+</body>
+</html>

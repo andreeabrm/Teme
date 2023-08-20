@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Homemade+Apple&display=swap');
+
+body {
+  font-family: 'Bacasime Antique', serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('books-wall.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  background-color: #5d4037;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 'Homemade Apple', cursive;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2f6a7585;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.library-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.library-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #5d4037;
+}
+
+.library-form form label,
+.library-form form input,
+.library-form form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.library-form form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.library-form form button {
+  padding: 10px;
+  background-color: #5d4037;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.library-form form button:hover {
+  background-color: #4e342e;
+}
+
+.library-list {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.library-list h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #5d4037;
+}
+
+.library-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.library-list li {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.library-list li:last-child {
+  margin-bottom: 0;
+}

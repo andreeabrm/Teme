@@ -1,0 +1,62 @@
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+        body {
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            padding: 20px;
+            background-image: url('rick-and-morty-background.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        h1 {
+            color: #00FF86;
+            text-align: center;
+            margin-top: 50px;
+            font-size: 48px;
+        }
+
+        .parent-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+        }
+        
+        .episode-button,
+        .location-button,
+        .character-button {
+            display: block;
+            width: 200px;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: rgb(198, 20, 133);
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .episode-button:focus,
+        .location-button:focus,
+        .character-button:focus {
+            outline: none;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+
+        .right-container,
+        .middle-container {
+            width: 400px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-left: 200px;
+        }

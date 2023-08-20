@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Caprasimo&family=Chela+One&family=Major+Mono+Display&display=swap');
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-family: 'Chela One', cursive;
+      font-size: 40px;
+      color: rgb(255, 191, 72);
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-top: 0;
+    }
+
+    label {
+      font-family: 'Major Mono Display', monospace;
+      color: rgba(128, 128, 128, 0.6);
+      font-size: 10px;
+    }
+
+    .search-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .search-bar input[type="text"] {
+      width: 200px;
+      margin-top: 10px;
+    }
+
+    .search-button {
+      background-color: orange;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 5px 20px;
+      cursor: pointer;
+      font-size: 10px;
+      margin-top: 10px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
+
+    .recipe {
+      text-align: center;
+      font-family: 'Fredoka One', cursive;
+      font-size: small;
+      color: rgb(69, 69, 69);
+      margin: 10px;
+      height: 300px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      background-color: #fff;
+      padding-right: 0px; 
+      padding-left: 0px;
+      transition: background-color 0.3s ease;
+    }
+
+    .recipe:hover {
+      background-color: rgba(255, 165, 0, 0.1);
+    }
+
+    .recipe img {
+      width: 220px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .get-recipe-button {
+      background-color: orange;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    #popup-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+    }
+    
+    #popup-content {
+      position: absolute;
+      width: 600px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgb(255, 132, 0);
+      padding: 20px;
+      border-radius: 6px;
+      height: 440px;
+      color: white;
+      row-gap: 1.5px;
+      font-family: 'Major Mono Display', monospace;
+      font-size: small;
+    }
+    
+    #close-popup {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+    }
+
+    .popup-image {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
